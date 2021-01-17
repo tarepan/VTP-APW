@@ -18,6 +18,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.8
         with:
-          ACCESS_TOKEN: ${{ secrets.VTPwassan }}
+          ACCESS_TOKEN: ${{ secrets.VTPAPW }}
           BRANCH: gh-pages
           FOLDER: dist
